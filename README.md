@@ -474,7 +474,7 @@ This architecture provides a secure, scalable, and highly available environment 
 
 *Screenshot*
 
-![Amazon EC2](screenshots/scenario3-03-ec2-instance.png)
+![Amazon EC2](screenshots/scenario3-03-ec2.png)
 
 ---
 
