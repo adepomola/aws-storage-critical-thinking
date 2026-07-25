@@ -55,7 +55,7 @@ The solution should make use of AWS global infrastructure, content delivery, loa
 
 ## Architecture Diagram
 
-![Scenario 1 Architecture](diagrams/scenario1-architecture.png)
+![Scenario 1 Architecture](screenshots/scenario1-architecture.jpeg)
 
 ---
 
@@ -94,7 +94,7 @@ CloudFront caches content closer to end users while the Application Load Balance
 
 *Screenshot*
 
-![Mumbai EC2 Instance](screenshots/scenario1/scenario1-01-mumbai-ec2.png)
+![Mumbai EC2 Instance](screenshots/scenario1-01-mumbai-ec2.png)
 
 ---
 
@@ -108,7 +108,7 @@ CloudFront caches content closer to end users while the Application Load Balance
 
 *Screenshot*
 
-![London EC2 Instance](screenshots/scenario1/scenario1-02-london-ec2.png)
+![London EC2 Instance](screenshots/scenario1-02-london-ec2.png)
 
 ---
 
@@ -123,7 +123,7 @@ Configure the Security Group to allow inbound traffic.
 
 *Screenshot*
 
-![Security Group](screenshots/scenario1/scenario1-03-security-group.png)
+![Security Group](screenshots/scenario1-03-security-group.png)
 
 ---
 
@@ -197,7 +197,7 @@ echo "<h1>Welcome from London Server</h1>" | sudo tee /var/www/html/index.html
 
 *Screenshot*
 
-![Application Load Balancer](screenshots/scenario1/scenario1-04-load-balancer.png)
+![Application Load Balancer](screenshots/scenario1-04-load-balancer.png)
 
 ---
 
@@ -211,7 +211,7 @@ echo "<h1>Welcome from London Server</h1>" | sudo tee /var/www/html/index.html
 
 *Screenshot*
 
-![CloudFront Distribution](screenshots/scenario1/scenario1-05-cloudfront.png)
+![CloudFront Distribution](screenshots/scenario1-05-cloudfront.png)
 
 ---
 
@@ -223,7 +223,7 @@ The deployed infrastructure allows users from India and London to access the app
 
 ## Scenario 1 Architecture
 
-![Scenario 1 Architecture](diagrams/scenario1-architecture.png)
+![Scenario 1 Architecture](screenshots/scenario1-architecture.jpeg)
 
 ---
 
@@ -246,7 +246,7 @@ As a Junior DevOps Engineer, the objective is to host a static website using Ama
 
 ## Architecture Diagram
 
-![Scenario 2 Architecture](diagrams/scenario2-architecture.png)
+![Scenario 2 Architecture](screenshots/scenario2-architecture.jpeg)
 
 ---
 
@@ -280,7 +280,7 @@ The website files are stored in an Amazon S3 bucket configured for static websit
 
 *Screenshot*
 
-![S3 Bucket](screenshots/scenario2/scenario2-01-s3-bucket.png)
+![S3 Bucket](screenshots/scenario2-01-s3-bucket.png)
 
 ---
 
@@ -296,7 +296,7 @@ The website files are stored in an Amazon S3 bucket configured for static websit
 
 *Screenshot*
 
-![Uploaded Website Files](screenshots/scenario2/scenario2-02-uploaded-files.png)
+![Uploaded Website Files](screenshots/scenario2-02-uploaded-files.png)
 
 ---
 
@@ -320,7 +320,7 @@ index.html
 
 *Screenshot*
 
-![Static Website Hosting](screenshots/scenario2/scenario2-03-static-hosting.png)
+![Static Website Hosting](screenshots/scenario2-03-static-hosting.png)
 
 ---
 
@@ -349,7 +349,7 @@ Replace *YOUR-BUCKET-NAME* with the actual name of your S3 bucket.
 
 *Screenshot*
 
-![Bucket Policy](screenshots/scenario2/scenario2-04-bucket-policy.png)
+![Bucket Policy](screenshots/scenario2-04-bucket-policy.png)
 
 ---
 
@@ -365,7 +365,7 @@ This endpoint is used to access the hosted website.
 
 *Screenshot*
 
-![Website Endpoint](screenshots/scenario2/scenario2-05-website-endpoint.png)
+![Website Endpoint](screenshots/scenario2-05-website-endpoint.png)
 
 ---
 
@@ -415,7 +415,7 @@ The objective is to modernize the application by migrating it to AWS while retai
 
 # Architecture Diagram
 
-![Scenario 3 Architecture](diagrams/scenario3-05-architecture.png)
+![Scenario 3 Architecture](screenshots/scenario3-05-architecture.jpeg)
 
 ---
 
@@ -448,7 +448,7 @@ This architecture provides a secure, scalable, and highly available environment 
 
 *Screenshot*
 
-![Amazon VPC](screenshots/scenario3/scenario3-01-vpc.png)
+![Amazon VPC](screenshots/scenario3-01-vpc.png)
 
 ---
 
@@ -461,7 +461,7 @@ This architecture provides a secure, scalable, and highly available environment 
 
 *Screenshot*
 
-![Public Subnets](screenshots/scenario3/scenario3-02-subnets.png)
+![Public Subnets](screenshots/scenario3-02-subnets.png)
 
 ---
 
@@ -474,7 +474,7 @@ This architecture provides a secure, scalable, and highly available environment 
 
 *Screenshot*
 
-![Amazon EC2](screenshots/scenario3/scenario3-03-ec2-instance.png)
+![Amazon EC2](screenshots/scenario3-03-ec2-instance.png)
 
 ---
 
@@ -492,7 +492,7 @@ Recommended rules:
 
 *Screenshot*
 
-![Security Group](screenshots/scenario3/scenario3-04-security-group.png)
+![Security Group](screenshots/scenario3-04-security-group.png)
 
 ---
 
